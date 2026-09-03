@@ -1,0 +1,170 @@
+{
+  "antiAdblock": {
+    "enabled": false,
+    "showWarning": true,
+    "warningPosition": "bottom-right",
+    "warningDuration": 10000
+  },
+  "popunder": {
+    "enabled": true,
+    "frequency": "once_per_session",
+    "maxPerSession": 2,
+    "delay": 5000,
+    "scripts": [
+      "https://levitydinerdowny.com/59/3a/e0/593ae0a2fb3fa3045dd2b8ce649908ab.js"
+    ]
+  },
+  "socialBar": {
+    "enabled": true,
+    "delay": 3000,
+    "script": "https://levitydinerdowny.com/88/88/a1/8888a19c6a1141f12aba002c4984b9b9.js"
+  },
+  "nativeBanner": {
+    "enabled": true,
+    "script": "https://levitydinerdowny.com/9ef44dd83283964d69db6c29b16ed596/invoke.js",
+    "html": "<div id='container-9ef44dd83283964d69db6c29b16ed596'></div>"
+  },
+  "banners": {
+    "aboveIframe": {
+      "enabled": true,
+      "rotation": true,
+      "rotationInterval": 25000,
+      "ads": [
+        {
+          "id": "adsterra-728x90",
+          "script": "https://levitydinerdowny.com/2a362e5cae20c33eeea29a03144bdf06/invoke.js",
+          "config": {
+            "key": "2a362e5cae20c33eeea29a03144bdf06",
+            "format": "iframe",
+            "height": 90,
+            "width": 728,
+            "params": {}
+          }
+        },
+        {
+          "id": "adsterra-468x60",
+          "script": "https://levitydinerdowny.com/01f7a449b0ada3ec332f7d5c7f10face/invoke.js",
+          "config": {
+            "key": "01f7a449b0ada3ec332f7d5c7f10face",
+            "format": "iframe",
+            "height": 60,
+            "width": 468,
+            "params": {}
+          }
+        }
+      ]
+    },
+    "belowIframe": {
+      "enabled": true,
+      "rotation": true,
+      "rotationInterval": 30000,
+      "ads": [
+        {
+          "id": "adsterra-300x250",
+          "script": "https://levitydinerdowny.com/504d3de3ce11bfc8653e7ec22accca8a/invoke.js",
+          "config": {
+            "key": "504d3de3ce11bfc8653e7ec22accca8a",
+            "format": "iframe",
+            "height": 250,
+            "width": 300,
+            "params": {}
+          }
+        }
+      ]
+    },
+    "pageBottom": {
+      "enabled": true,
+      "rotation": true,
+      "rotationInterval": 30000,
+      "ads": [
+        {
+          "id": "adsterra-728x90-bottom",
+          "script": "https://levitydinerdowny.com/2a362e5cae20c33eeea29a03144bdf06/invoke.js",
+          "config": {
+            "key": "2a362e5cae20c33eeea29a03144bdf06",
+            "format": "iframe",
+            "height": 90,
+            "width": 728,
+            "params": {}
+          }
+        }
+      ]
+    },
+    "pageMiddle": {
+      "enabled": true,
+      "rotation": true,
+      "rotationInterval": 30000,
+      "ads": [
+        {
+          "id": "adsterra-300x250-middle",
+          "script": "https://levitydinerdowny.com/504d3de3ce11bfc8653e7ec22accca8a/invoke.js",
+          "config": {
+            "key": "504d3de3ce11bfc8653e7ec22accca8a",
+            "format": "iframe",
+            "height": 250,
+            "width": 300,
+            "params": {}
+          }
+        }
+      ]
+    }
+  },
+  "sidebarAd": {
+    "enabled": true,
+    "rotation": true,
+    "rotationInterval": 35000,
+    "ads": [
+      {
+        "id": "adsterra-300x250-sidebar",
+        "script": "https://levitydinerdowny.com/504d3de3ce11bfc8653e7ec22accca8a/invoke.js",
+        "config": {
+          "key": "504d3de3ce11bfc8653e7ec22accca8a",
+          "format": "iframe",
+          "height": 250,
+          "width": 300,
+          "params": {}
+        }
+      }
+    ]
+  },
+  "sidebarAdExtra": {
+    "enabled": true,
+    "rotation": true,
+    "rotationInterval": 40000,
+    "ads": [
+      {
+        "id": "adsterra-468x60-sidebar-extra",
+        "script": "https://levitydinerdowny.com/01f7a449b0ada3ec332f7d5c7f10face/invoke.js",
+        "config": {
+          "key": "01f7a449b0ada3ec332f7d5c7f10face",
+          "format": "iframe",
+          "height": 60,
+          "width": 468,
+          "params": {}
+        }
+      }
+    ]
+  },
+  "vignetteBanner": {
+    "enabled": false,
+    "delay": 1000,
+    "zone": "",
+    "script": "",
+    "repeatInterval": 300000,
+    "maxShowsPerSession": 10
+  },
+  "inPagePush": {
+    "enabled": false,
+    "zone": "",
+    "script": "",
+    "delay": 2000
+  },
+  "smartlink": {
+    "enabled": true,
+    "url": "https://levitydinerdowny.com/pm8dar3ig?key=37d286aa1769c94e278921296099676b",
+    "mode": "popunder",
+    "triggerOnClick": true,
+    "minIntervalBetweenShows": 120000,
+    "maxShowsPerSession": 3
+  }
+}
